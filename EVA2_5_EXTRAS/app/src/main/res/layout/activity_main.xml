@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario" />
+
+    <EditText
+        android:id="@+id/txtSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <RadioGroup
+        android:id="@+id/rgEstado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rbSoltero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soltero" />
+
+        <RadioButton
+            android:id="@+id/rbCasado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casado" />
+
+        <RadioButton
+            android:id="@+id/rbDivorciado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Divorciado" />
+
+        <RadioButton
+            android:id="@+id/rbInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin info" />
+
+        <CheckBox
+            android:id="@+id/chInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info adicional" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="ENVIAR" />
+
+    </RadioGroup>
+
+</LinearLayout>
